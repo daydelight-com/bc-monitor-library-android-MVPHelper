@@ -1,3 +1,14 @@
+/*
+ * This file has been modified by Day Delight Inc. in 2020.
+ * Original: https://github.com/stfalcon-studio/MVPHelper (Copyright 2017 stfalcon.com)
+ * Changes:
+ *   - Updated the Android Gradle Plugin to 4.1.0 and Kotlin to 1.4.10.
+ *   - Added the google() repository.
+ *   - Replaced the Bintray release plugin with the android-maven plugin for JitPack.
+ *
+ * Licensed under the Apache License, Version 2.0. See the LICENSE file in the root of this repository.
+ */
+
 buildscript {
     ext.kotlin_version = '1.4.10'
 

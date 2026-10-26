@@ -1,3 +1,15 @@
+/*
+ * This file has been modified by Day Delight Inc. in 2020.
+ * Original: https://github.com/stfalcon-studio/MVPHelper (Copyright 2017 stfalcon.com)
+ * Changes:
+ *   - Migrated from the Android Support Library to AndroidX (androidx.loader).
+ *   - Replaced the deprecated loaderManager with LoaderManager.getInstance(this).
+ *   - Changed the inflater parameter of onCreateView() to non-null (LayoutInflater).
+ *   - Changed the args parameter of onCreateLoader() to nullable (Bundle?).
+ *
+ * Licensed under the Apache License, Version 2.0. See the LICENSE file in the root of this repository.
+ */
+
 package com.stfalcon.mvphelper
 
 import android.os.Bundle

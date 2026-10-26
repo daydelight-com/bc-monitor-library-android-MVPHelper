@@ -1,5 +1,8 @@
 # MVPHelper
 
+> **Note:** This repository contains a version of MVPHelper modified by Day Delight Inc.
+> See [MODIFICATIONS.md](MODIFICATIONS.md) for the changes and [LICENSE](LICENSE) for the license.
+
 Base classes for quick and easy implementation of MVP for Android applications.
 
 Download via **Gradle**:
